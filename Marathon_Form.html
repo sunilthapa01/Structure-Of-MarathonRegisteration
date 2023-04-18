@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration Form</title>
+    </head>
+
+    <body>
+        <header>
+            <!-- HEADNG OF THIS PAGE !!!!! -->
+
+            <h1><u> Marathon Registration Form</u></h1>
+        </header>
+        <main>
+            <!-- FORMS STARTS FROM HERE...... -->
+            <form action="/WaitingLove/">
+                <!-- ASKING NAME  -->
+                <div>
+
+                    <label for="First">First name:- </label>
+                    <input type="text" placeholder="First..." id="First" required>
+                    <input type="reset" value="Reset">
+                </div>
+                <br>
+                <div>
+                    <label for="Last"> Last Name:- </label>
+                    <input type="text" placeholder="Last..." id="Last" required>
+                    <input type="reset" value="Reset">
+
+                </div>
+                <!-- END OF INTRO -->
+                <br>
+                <!-- "br" FOR NEW LINE.......... -->
+                <div>
+                    <!-- THIS IS FOR EMAIL!!!!!!!!! -->
+                    <label for="Mail">Email:- </label>
+                    <input type="email" placeholder="userin@email.com" id="Mail" required>
+                    <input type="reset" value="Reset">
+
+                </div>
+                <br>
+                <div>
+                    <!-- THIS IS FOR NUMBER!!!!!  -->
+                    <label for="Number">Phone No :- </label>
+                    <input type="tel" placeholder="911xxxxx52" id="Number" required>
+
+                </div>
+                <br>
+                <div>
+                    <!-- BIRTH DATE !!  -->
+                    <label for="Date">Birth Date:- </label>
+                    <input type="datetime-local" id="Date" required>
+
+                </div>
+                <br>
+                <div>
+                    <!-- ASKING FOR GENDER (TYPE :- radio) -->
+                    <p><b> Gender :- </b></p>
+                    <input type="radio" name="size" value="Male" required>
+                    <label> Male </label>
+
+
+                </div>
+
+                <div>
+                    <!-- THIS IS THE PART OF ABOE SECTION  -->
+                    <input type="radio" name="size" value="Female">
+                    <label> Female </label>
+
+
+                </div>
+                <div>
+                    <input type="radio" name="size" value="Other">
+                    <label> Other </label>
+
+
+                </div>
+                <br>
+                <!-- ASKING OTHER QUESTION  -->
+                <p> <b>Do you have any medical discomfort?</b></p>
+                <div>
+                    <input type="radio" name="issue" value="yes">
+                    <label>Yes </label>
+                </div>
+                <div>
+                    <input type="radio" name="issue" value="No">
+                    <label>No </label>
+                </div>
+                <!-- ||||||||||||||||||||||||||||||||||||| -->
+                <br>
+                <!-- ||||| RACEEEE ||||||| -->
+                <p> <b> Select a Race:- </b></p>
+                <div>
+                    <input type="radio" name="race" value="Fun">
+                    <label> Fun Run 5k </label>
+                </div>
+                <div>
+                    <input type="radio" name="race" value="Half">
+                    <label> Half Marathon </label>
+                </div>
+                <div>
+                    <input type="radio" name="race" value="Full">
+                    <label> Full Marathon </label>
+                </div>
+                <!-- |||||||||| END |||||||||||||||| -->
+                <!-- ABOUT AGE SELECTION........ -->
+                <br>
+
+                <!-- THIS IS CREATED USING (OPTION TAG) -->
+                <div>
+                    <label for="Age">Select Age : </label>
+                    <select id="Age">
+                        <option value="choose">--Please choose an option--</option>
+                        <option>Below 18</option>
+                        <option>18-30</option>
+                        <option>30-50</option>
+                        <option>50+</option>
+
+                    </select>
+                </div>
+                <!-- END OF OPTION TAG -->
+                <br>
+                <!-- CREATED THIS USING ( TEXTAREA TAG ) -->
+                <div>
+                    <label for="mention"> <b>We would like to hear if you want to mention anything else
+                            ??</b></label>
+                    <br>
+                    <textarea id="mention" placeholder="Type here......" rows="10" cols="30"></textarea>
+                </div>
+                <!-- END OF TEXTAREA TAG -->
+                <br>
+                <br>
+                <button> <b> Click Submit</b></button>
+
+            </form>
+        </main>
+
+    </body>
+
+</html>
